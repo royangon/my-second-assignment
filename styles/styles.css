@@ -11,44 +11,37 @@
 
 
 /* navbar-related-styles */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+    
+
+}
+
+
 .brand {
     color: rgb(230, 83, 60);
     font-weight: 800;
     font-size: 2.25rem;
     text-align: left;
     font-style: oblique;
-    margin-left: 190px;
-    
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    /* margin-left: 190px;
-    margin-right: 190px; */
-    align-items: center;
-    background-color: rgb(17, 17, 17);
-    width: 100%;
-    position: relative;
+    /* margin-left: 190px; */
+    padding-left: 190px;
 
 }
+
 
 .nav-links {
 
     list-style-type: none;
+    padding-right: 190px;
 
 
 }
-
-.nav-link {
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 1.125rem;
-    color:  rgb(255, 255, 255);
-
-
-}
-
 
 .list-items {
 
@@ -62,14 +55,21 @@
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
-    margin-right: 190px;
-   
-    
-  
+    /* margin-right: 190px; */
 
 }
 
-button {
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: rgb(255, 255, 255);
+
+
+}
+
+
+ button {
     border-radius: 46px;
     border: none;
     background-color: rgb(230, 83, 60);
