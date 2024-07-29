@@ -11,7 +11,7 @@
 }
 
 
-
+/* header */
 /* navbar-related-styles */
 
 .navbar {
@@ -85,6 +85,11 @@
     font-size: 1.125rem;
 }
 
+
+
+/* banner-related-styles */
+
+
 .banner {
 
 
@@ -99,7 +104,7 @@
 
 }
 
-.banner-content{
+.banner-content {
     display: flex;
     max-width: 1440px;
     max-height: 700px;
@@ -108,12 +113,13 @@
     gap: 87.95px;
 }
 
-.banner-content > .banner-img-card{
+.banner-content>.banner-img-card {
     position: relative;
     top: 150px;
     left: 40px;
 
 }
+
 .jcn,
 .da {
     border-radius: 46px;
@@ -169,7 +175,7 @@
     font-style: normal;
 }
 
-.banner-img-card > .card-box1 {
+.banner-img-card>.card-box1 {
     display: flex;
     width: 206px;
     height: 96px;
@@ -184,7 +190,7 @@
     position: relative;
     top: -160px;
     left: -120px;
-    
+
 }
 
 .card-text {
@@ -199,8 +205,8 @@
     background-color: rgb(230, 83, 60);
 }
 
-.banner-img-card > .card-box2 {
-    
+.banner-img-card>.card-box2 {
+
     width: 193px;
     height: 98px;
     text-align: center;
@@ -238,7 +244,80 @@
 #fwv {
     margin-top: 10px;
     color: rgba(255, 255, 255, 0.65);
-   
+
     font-size: 0.8rem;
     font-weight: 400;
+}
+
+.blackdiv {
+    background-color: black;
+    height: 100px;
+}
+
+
+/* main */
+/* 1st-section-related-styles */
+
+
+.havits {
+
+    background-color: rgb(17, 17, 17);
+    
+}
+
+.havit-title {
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+
+.havit-description {
+    font-weight: 400;
+    font-size: .87rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.title-and-description {
+
+    text-align: center;
+    
+
+}
+
+.img-headline{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+.img-text{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size:0.87rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 58px;
+}
+
+.img-and-text{
+    display: grid;
+  
+    height: 274px;
+    width: 231px;
+    justify-items: center;
+}
+.ht{
+    text-align: center;
+}
+
+.img-decoration{
+    border-radius: 90px;
+    border: 3px solid rgb(34, 34, 34);
 }
