@@ -17,9 +17,11 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    max-width: 1440px;
     align-items: center;
     background-color: rgb(17, 17, 17);
+    margin: 0 auto;
+    max-height: 100px;
 
 
 
@@ -97,6 +99,21 @@
 
 }
 
+.banner-content{
+    display: flex;
+    max-width: 1440px;
+    max-height: 700px;
+    align-items: center;
+    margin: 0 auto;
+    gap: 87.95px;
+}
+
+.banner-content > .banner-img-card{
+    position: relative;
+    top: 150px;
+    left: 40px;
+
+}
 .jcn,
 .da {
     border-radius: 46px;
@@ -141,10 +158,8 @@
     gap: 14px;
 }
 
-.banner-content {
-    display: flex;
-    gap: 88px;
-}
+
+
 
 #dancing-script {
     font-family: "Dancing Script", cursive;
@@ -154,7 +169,7 @@
     font-style: normal;
 }
 
-.card-box1 {
+.banner-img-card > .card-box1 {
     display: flex;
     width: 206px;
     height: 96px;
@@ -166,12 +181,10 @@
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
-    position: absolute;
-    width: 206px;
-    height: 96px;
-    left: 700px;
-    top: 556px;
-
+    position: relative;
+    top: -160px;
+    left: -120px;
+    
 }
 
 .card-text {
@@ -186,7 +199,8 @@
     background-color: rgb(230, 83, 60);
 }
 
-.card-box2 {
+.banner-img-card > .card-box2 {
+    
     width: 193px;
     height: 98px;
     text-align: center;
@@ -195,11 +209,9 @@
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
-    position: absolute;
-    width: 193px;
-    height: 98px;
-    left: 1050px;
-    top: 260px;
+    position: relative;
+    top: -560px;
+    right: -230px;
 
 }
 
