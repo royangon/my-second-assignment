@@ -133,6 +133,11 @@
     font-size: 1.125rem;
 }
 
+.da {
+    background-color: rgba(17, 17, 17, 0);
+    border: 1px solid rgb(255, 255, 255);
+}
+
 .headline {
     color: rgb(255, 255, 255);
     font-size: 4.8rem;
@@ -262,7 +267,7 @@
 .havits {
 
     background-color: rgb(17, 17, 17);
-    
+
 }
 
 .havit-title {
@@ -282,42 +287,79 @@
 .title-and-description {
 
     text-align: center;
-    
+
 
 }
 
-.img-headline{
+.img-headline {
     color: rgb(255, 255, 255);
     font-weight: 600;
     font-size: 1.125rem;
 }
 
-.img-text{
+.img-text {
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
-    font-size:0.87rem;
+    font-size: 0.87rem;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.img-container{
+.img-container {
     display: flex;
     justify-content: center;
     margin-top: 58px;
 }
 
-.img-and-text{
+.img-and-text {
     display: grid;
-  
+
     height: 274px;
     width: 231px;
     justify-items: center;
 }
-.ht{
+
+.ht {
     text-align: center;
 }
 
-.img-decoration{
+.img-decoration {
     border-radius: 90px;
     border: 3px solid rgb(34, 34, 34);
+}
+
+.extramile-headline {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+    margin-top: 0;
+}
+
+.extramile-text {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.87rem;
+    font-weight: 400;
+    margin-bottom: 4px;
+    width: 443px;
+    height: 72px;
+}
+
+.extramile {
+    /* border: 2px solid red; */
+    width: 1060px;
+    height: 371px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);;
+    margin: 100px auto;
+    border-radius: 18px;
+}
+
+.run {
+    border-radius: 18px;
+    width: 450px;
+    height: 312px;
+    border: 1px solid silver;
 }
