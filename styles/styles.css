@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 
 .inter-text-font {
     font-family: "Inter", sans-serif;
@@ -18,7 +20,8 @@
     width: 100%;
     align-items: center;
     background-color: rgb(17, 17, 17);
-    
+
+
 
 }
 
@@ -69,7 +72,7 @@
 }
 
 
- button {
+.home-button {
     border-radius: 46px;
     border: none;
     background-color: rgb(230, 83, 60);
@@ -78,4 +81,152 @@
     color: rgb(255, 255, 255);
     font-weight: 500;
     font-size: 1.125rem;
+}
+
+.banner {
+
+
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgb(41, 40, 40) 40%, rgb(41, 40, 40) 150%), linear-gradient(to top, rgba(255, 255, 255, 0.692) 0%, rgba(119, 119, 119, 0.25) 200%);
+    background-blend-mode: multiply;
+    left: -398px;
+    top: -1296px;
+
+    background-size: cover;
+
+
+
+}
+
+.jcn,
+.da {
+    border-radius: 46px;
+    border: none;
+    background-color: rgb(230, 83, 60);
+    /* width: 92px; */
+    width: 224px;
+    height: 54px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.headline {
+    color: rgb(255, 255, 255);
+    font-size: 4.8rem;
+    font-weight: 900;
+    width: 520px;
+    height: 282px;
+    margin-bottom: 80px;
+
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.5);
+    ;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 520px;
+    height: 48px;
+    margin-bottom: 40px;
+
+
+}
+
+.text {
+    margin-left: 190px;
+}
+
+.buttons {
+    display: flex;
+    gap: 14px;
+}
+
+.banner-content {
+    display: flex;
+    gap: 88px;
+}
+
+#dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    /* font-size: 4.8rem; */
+    font-weight: 900;
+    font-style: normal;
+}
+
+.card-box1 {
+    display: flex;
+    width: 206px;
+    height: 96px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    width: 206px;
+    height: 96px;
+    left: 700px;
+    top: 556px;
+
+}
+
+.card-text {
+    color: white;
+
+}
+
+.red-circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+}
+
+.card-box2 {
+    width: 193px;
+    height: 98px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    width: 193px;
+    height: 98px;
+    left: 1050px;
+    top: 260px;
+
+}
+
+#number1 {
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#number2 {
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+#vt {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0
+}
+
+#fwv {
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.65);
+   
+    font-size: 0.8rem;
+    font-weight: 400;
 }
