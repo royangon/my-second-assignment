@@ -310,6 +310,7 @@
     display: flex;
     justify-content: center;
     margin-top: 58px;
+    margin-bottom: 100px;
 }
 
 .img-and-text {
@@ -441,7 +442,7 @@ td {
 }
 
 table {
-
+    height: 216px;
     width: 310px;
 
 }
@@ -491,6 +492,5 @@ input {
     
 
 }
-:hover{
-    border: 2px solid red;
-}
+
+
