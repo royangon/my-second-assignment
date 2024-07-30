@@ -391,10 +391,18 @@
 }
 
 .calculator {
+    display: flex;
     border: 1x solid red;
     height: 487px;
     margin-top: 80px;
     background-color: rgb(34, 34, 34);
+    justify-content: center;
+    
+}
+
+.calculate {
+    width: 577px;
+    height: 96px;
 }
 
 .chart {
@@ -417,18 +425,72 @@ td {
     font-weight: 400;
 }
 
-table{
-    background-color:  rgb(34, 34, 34);
+table {
+    background-color: rgb(34, 34, 34);
 }
-table,tr,th,td{
+
+table,
+tr,
+th,
+td {
     padding: 22px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-collapse: collapse;
     text-align: center;
-   
+
 }
-table{
-    
+
+table {
+
     width: 310px;
 
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 168px;
+    width: 577px;
+    gap: 12px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+.item5 {
+    grid-column: span 2;
+}
+
+.calculator-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.cyb {
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+
+}
+
+.cyb-text {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+input {
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.637);
+    padding: 12px 40px;
+   
+    font-size: 1rem;
+    font-weight: 400;
+    
+
+}
+:hover{
+    border: 2px solid red;
 }
