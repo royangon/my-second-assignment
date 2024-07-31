@@ -97,8 +97,9 @@
     background-blend-mode: multiply;
     left: -398px;
     top: -1296px;
-
+    margin: 0;
     background-size: cover;
+
 
 
 
@@ -367,6 +368,9 @@
     border: 1px solid silver;
 }
 
+/* 2nd section */
+/* BMI-calculator related styles */
+
 .calc-topic {
 
     width: 671px;
@@ -398,7 +402,7 @@
     margin-top: 80px;
     background-color: rgb(34, 34, 34);
     justify-content: center;
-    
+
 }
 
 .calculate {
@@ -458,7 +462,8 @@ table {
 }
 
 .item5 {
-    grid-column: span 2;
+    /* grid-column: span 2; */
+    background-color: transparent;
 }
 
 .calculator-inputs {
@@ -486,11 +491,95 @@ input {
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.637);
     padding: 12px 40px;
-   
+
     font-size: 1rem;
     font-weight: 400;
-    
+
 
 }
 
+.down {
+    display: flex;
+    align-items: center;
+    width: 282.5px;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    justify-content: center;
+}
 
+.fa-solid {
+    color: rgba(255, 255, 255, 0.637);
+    position: relative;
+    right: 45px;
+    bottom: 5px;
+
+    width: 12px;
+    height: 6px;
+}
+
+.se {
+    background-color: transparent;
+}
+
+.down2 {
+    display: flex;
+    align-items: center;
+
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    grid-column: span 2;
+}
+
+.down2>.fa-solid {
+    position: relative;
+    right: -250px;
+}
+
+.age {
+    height: 24px;
+}
+
+.meet-our-team {
+    background-color: black;
+}
+
+.image-container {
+    height: 604px;
+    width: 1060px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    justify-items: center;
+    padding: 20px;
+}
+
+.trainer-and-text>.trainer {
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    opacity: .7;
+    border: 1px solid yellow;
+
+}
+
+.trainer-text {
+    position: relative;
+    left: 25px;
+    bottom: 80px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: aliceblue;
+    margin: 0;
+}
+
+.mini-text {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .87rem;
+    font-weight: 400;
+}
