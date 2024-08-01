@@ -65,6 +65,10 @@
 
 }
 
+.menu-bar{
+    display: none;
+}
+
 .nav-link {
     text-decoration: none;
     font-weight: 500;
@@ -674,4 +678,77 @@ input {
     height: 1px;
     border: 0px;
     
+}
+
+/* phone screen responsive design */
+
+@media screen and (max-width: 600px) {
+    .list-items{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+        margin-top: 35px;
+        position: relative;
+        left: 40px;
+    }
+    .navbar{
+        
+        width: 400px;
+        height: 43px;
+       
+    }
+
+    .brand{
+        margin-top: 55px;
+        display: flex;
+        padding: 0;
+        
+    }
+
+    .banner{
+        width:430px;
+        border: 1px solid red;
+    }
+
+    .banner-content{
+        width: 430px;
+      
+        flex-direction: column;
+    }
+
+    .text{
+        margin: 20px;
+        width: 430px;
+    }
+
+    .headline{
+        width: 400px;
+        margin: 0;
+        height: 129px;
+    }
+
+    .headline-text{
+        margin-right: 140px;
+        font-size: 2.25rem;
+        font-weight: 900;
+        margin-left: 10px;
+        
+    }
+
+    br{
+        display: none;
+    }
+    .description-text{
+        margin-right: 180px;
+        margin-left: 10px;
+
+    }
+    .buttons{
+        width: 352px;
+        height: 54px;
+        margin: 0 auto;
+    }
+
+
 }
