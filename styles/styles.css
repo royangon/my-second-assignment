@@ -730,11 +730,12 @@ input {
     }
 
     .banner-content {
-        border: 2px solid red;
-        width: 440px;
+       
+        width: 430px;
         height: 1024px;
         gap: 48px;
         flex-direction: column;
+        background-color: black;
     }
 
     .text {
@@ -761,13 +762,13 @@ input {
 
     .description{
         width: 400px;
-        height: 400px;
+     
         
-        border: 1px solid red;
+       
     }
 
     .description > .description-text{
-        border: 1px solid red;
+       
         width: 300px;
         
         
@@ -781,6 +782,7 @@ input {
     .description-text {
         margin-right: 180px;
         margin-left: 10px;
+        margin-bottom: 30px;
 
     }
 
@@ -803,7 +805,7 @@ input {
 
     .banner-content>.banner-img-card {
         position: relative;
-        top: -30px;
+        top: -20px;
     }
 
     .banner-img-card>.card-box1 {
