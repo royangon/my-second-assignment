@@ -704,7 +704,7 @@ input {
         margin-top: 35px;
         position: relative;
         left: 40px;
-        border: 2px solid red;
+       
     }
 
     .navbar {
@@ -716,6 +716,7 @@ input {
 
     .blackdiv {
         width: 430px;
+        border: none;
     }
 
     .brand {
@@ -730,7 +731,7 @@ input {
     }
 
     .banner-content {
-       
+
         width: 430px;
         height: 1024px;
         gap: 48px;
@@ -760,19 +761,19 @@ input {
 
     }
 
-    .description{
+    .description {
         width: 400px;
-     
-        
-       
+
+
+
     }
 
-    .description > .description-text{
-       
+    .description>.description-text {
+
         width: 300px;
-        
-        
-       
+
+
+
     }
 
     br {
@@ -840,6 +841,7 @@ input {
 
     .havits {
         width: 430px;
+        border: none;
     }
 
     .title-and-description {
@@ -896,6 +898,7 @@ input {
     .calc-heading {
         font-size: 2rem;
         font-weight: 900;
+        margin-left: 10px;
     }
 
     .calculator {
@@ -914,14 +917,27 @@ input {
         height: 395px;
     }
 
+    .calc-text {
+        margin: 10px;
+    }
+
     .calculate {
         width: 400px;
         padding: 5px;
     }
 
+    .cyb {
+        margin: 10px;
+    }
+
+    .cyb-text {
+        margin: 10px;
+    }
+
     .inputs {
         width: 353px;
         height: 168px;
+        margin-left: 5px;
     }
 
     input {
@@ -981,6 +997,11 @@ input {
         flex-direction: column;
     }
 
+    .hr {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .line {
         position: relative;
         top: 450px;
@@ -990,5 +1011,17 @@ input {
     .copyright {
         position: relative;
         top: 470px;
+    }
+
+    .fft {
+        margin: 10px;
+    }
+
+    .gs {
+        margin: 10px;
+    }
+
+    .havit-title {
+        margin-bottom: 20px;
     }
 }
