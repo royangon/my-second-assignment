@@ -696,14 +696,20 @@ input {
     }
 
     .list-items {
+        width: 2px;
+        height: 2px;
+        border: 1px solid red;
         display: none;
+         
     }
 
     .menu-bar {
         display: block;
         margin-top: 35px;
         position: relative;
-        left: 40px;
+        left: 200px;
+        
+       
        
     }
 
@@ -723,6 +729,7 @@ input {
         margin-top: 20px;
         display: flex;
         padding: 0;
+        margin-left: 10px
 
     }
 
@@ -821,6 +828,9 @@ input {
         top: -450px;
 
 
+    }
+    .banner-img-card{
+        width: 340px;
     }
 
     .img-container {
@@ -1014,7 +1024,9 @@ input {
     }
 
     .fft {
-        margin: 10px;
+        margin-left: 10px;
+        width: 420px;
+        margin-right: 0;
     }
 
     .gs {
