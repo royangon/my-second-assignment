@@ -716,8 +716,9 @@ input {
     .menu-bar {
         display: block;
         margin-top: 35px;
-        position: relative;
-        left: 200px;
+        position: absolute;
+        left: 410px;
+        top: -10px;
         
        
        
@@ -966,13 +967,22 @@ input {
     }
 
     .down {
-        width: 200.5px;
+        width: 200px;
         height: 48px;
+    
+    }
+    .down > .fa-solid{
+        position: relative;
+        left: -35px;
+    }
+    .down2{
+        width: 420px;
     }
 
     .down2>.fa-solid {
-        position: relative;
-        left: 160px;
+        position: absolute;
+        left: 380px;
+        bottom: -3000px;
     }
 
     .calculator-inputs>.jcn {
