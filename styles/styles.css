@@ -974,6 +974,7 @@ input {
     .down > .fa-solid{
         position: relative;
         left: -35px;
+       
     }
     .down2{
         width: 420px;
@@ -982,7 +983,7 @@ input {
     .down2>.fa-solid {
         position: absolute;
         left: 380px;
-        bottom: -3000px;
+        bottom: -3550px;
     }
 
     .calculator-inputs>.jcn {
@@ -1056,4 +1057,6 @@ input {
     .havit-title {
         margin-bottom: 20px;
     }
+ 
+
 }
