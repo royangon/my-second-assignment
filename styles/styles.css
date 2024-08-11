@@ -982,9 +982,8 @@ input {
     }
 
     .down2>.fa-solid {
-        position: absolute;
-        left: 380px;
-        bottom: -3500px;
+        position: relative;
+       left: 170px;
     }
 
     .calculator-inputs>.jcn {
